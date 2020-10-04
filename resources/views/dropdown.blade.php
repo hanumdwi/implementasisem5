@@ -92,9 +92,9 @@
                                         Please provide a valid zip.
                                     </div>
                             </div>
+                            <p id="hasil"></p>
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                             </div>
-                            <p id="hasil"></p>
                         </div>
                         
                         
@@ -205,7 +205,7 @@
         Webcam.snap(function (data_uri) {
          document.getElementById('hasil').innerHTML = 
                 '<img src="' + data_uri + '" width="200px" height="153px" />'+
-                '<input type="hidden" value="'+ data_uri +'" name="fotoo">'
+                '<input type="hidden" value="'+ data_uri +'" name="foto">'
         });
     }
          

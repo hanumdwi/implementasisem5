@@ -40,7 +40,7 @@ class DataController extends Controller
         //ID CUSTOMER BELUM AUTO INCREMENT
         DB::table('customer')->insert(['ID_CUSTOMER'=>'19','NAMA' => $request->nama,
         'ALAMAT' => $request->alamat,
-        'FOTO' => $request->fotoo,
+        'FOTO' => $request->foto,
         'ID_KELURAHAN'=> $request->kelurahan,
         ]);
         return redirect('/dropdownlist');

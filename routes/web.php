@@ -33,3 +33,5 @@ Route::post('customerstore1', 'DataController@customer_store1');
 Route::post('customerstore2', 'DataController@customer_store2');
 
 Route::get('barcode','BarcodeController@barcode');
+Route::get('pdf-barcode/{id}', 'BarcodeController@pdf_barcode');
+Route::get('test-barcode', 'BarcodeController@test_barcode');
