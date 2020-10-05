@@ -163,7 +163,17 @@
                                 </tr>
                             </thead>
                                 <tbody>
+                                    <tr> 
+                                    @foreach($customer as $cus)
                                     <tr>
+                                    <th>{{ $loop->iteration }}</th>
+                                    <td>{{ $cus -> ID_CUSTOMER }}</td>
+                                    <td>{{ $cus -> NAMA }}</td>
+                                    <td>{{ $cus -> ALAMAT }}</td>
+                                    <td>{{ $cus -> ID_KELURAHAN }}</td>
+                                    <td>{{ $cus -> FOTO }}</td>
+                                    </tr>
+                                    @endforeach
                                     </tr>
                             </tfoot>
                         </table>

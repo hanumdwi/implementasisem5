@@ -10,8 +10,19 @@ class DataController extends Controller
 {
     public function getCountries()
     {
+        $customer = DB::table('customer')->get();
         $provinsi = DB::table('provinsi')->pluck("NAMA_PROVINSI","ID_PROVINSI");
-        return view('dropdown',compact('provinsi'));
+        
+        return view('dropdown', ['customer' =>$customer,'provinsi'=>$provinsi]);
+        // $provinsi = DB::table('provinsi')->pluck("NAMA_PROVINSI","ID_PROVINSI");
+        // return view('dropdown',compact('provinsi'));
+    }
+
+    public function getCountries1()
+    {
+        $customer = DB::table('customer')->get();
+        $provinsi = DB::table('provinsi')->pluck("NAMA_PROVINSI","ID_PROVINSI");
+        return view('dropdown1', ['customer' =>$customer,'provinsi'=>$provinsi]);
     }
 
     public function getStates($id) 
@@ -37,13 +48,16 @@ class DataController extends Controller
 
     public function customer_store1(Request $request)
     {
-        //ID CUSTOMER BELUM AUTO INCREMENT
+        // $customer = DB::table('customer')->get();
+        // $provinsi = DB::table('provinsi')->pluck("NAMA_PROVINSI","ID_PROVINSI");
+        
+        // return view('dropdown', ['customer' =>$customer,'provinsi'=>$provinsi]);
+        //dump($customer);
         DB::table('customer')->insert(['ID_CUSTOMER'=>'19','NAMA' => $request->nama,
         'ALAMAT' => $request->alamat,
         'FOTO' => $request->foto,
         'ID_KELURAHAN'=> $request->kelurahan,
         ]);
-        return redirect('/dropdownlist');
     }
 
     public function customer_store2(Request $request)
@@ -62,10 +76,6 @@ class DataController extends Controller
         return redirect('/dropdownlist');
     }
 
-    public function getCountries1()
-    {
-        $provinsi = DB::table('provinsi')->pluck("NAMA_PROVINSI","ID_PROVINSI");
-        return view('dropdown1',compact('provinsi'));
-    }
+  
 
 }

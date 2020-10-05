@@ -21,14 +21,16 @@ Route::get('dashboard', function (){
     return view('dashboard');
 });
 
-Route::get('dropdownlist','DataController@getCountries');
+
 Route::get('dropdownlist/getstates/{id}','DataController@getStates');
 Route::get('dropdownlist/getkecamatan/{id}','DataController@getKecamatan');
 Route::get('dropdownlist/getkelurahan/{id}','DataController@getKelurahan');
 Route::get('dropdownlist/getkodepos/{id}','DataController@getKodepos');
 
+///tampil
+Route::get('dropdownlist','DataController@getCountries');
 Route::get('dropdownlist1','DataController@getCountries1');
-
+//save
 Route::post('customerstore1', 'DataController@customer_store1');
 Route::post('customerstore2', 'DataController@customer_store2');
 

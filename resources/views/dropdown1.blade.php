@@ -163,7 +163,17 @@
                                 </tr>
                             </thead>
                                 <tbody>
+                                    <tr> 
+                                    @foreach($customer as $cus)
                                     <tr>
+                                    <th>{{ $loop->iteration }}</th>
+                                    <td>{{ $cus -> ID_CUSTOMER }}</td>
+                                    <td>{{ $cus -> NAMA }}</td>
+                                    <td>{{ $cus -> ALAMAT }}</td>
+                                    <td>{{ $cus -> ID_KELURAHAN }}</td>
+                                    <td>{{ $cus -> FOTO }}</td>
+                                    </tr>
+                                    @endforeach
                                     </tr>
                             </tfoot>
                         </table>
@@ -304,7 +314,7 @@
                     x[i].submit();
                 });
             }
-            swal("Welcome to Add Customer 2!", "You clicked the button!", "success");
+            swal("Welcome to Add Customer 1!", "You clicked the button!", "success");
 </script>
 
 @endsection        
