@@ -171,7 +171,7 @@
                                     <td>{{ $cus -> NAMA }}</td>
                                     <td>{{ $cus -> ALAMAT }}</td>
                                     <td>{{ $cus -> ID_KELURAHAN }}</td>
-                                    <td>{{ $cus -> FOTO }}</td>
+                                    <td>{{ $cus -> FILE_PATH }}</td>
                                     </tr>
                                     @endforeach
                                     </tr>

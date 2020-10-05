@@ -58,6 +58,8 @@ class DataController extends Controller
         'FOTO' => $request->foto,
         'ID_KELURAHAN'=> $request->kelurahan,
         ]);
+        return redirect('/dropdownlist');
+        // echo $request->foto;
     }
 
     public function customer_store2(Request $request)
@@ -73,7 +75,7 @@ class DataController extends Controller
         'FILE_PATH' => $path,
         'ID_KELURAHAN'=> $request->kelurahan,
         ]);
-        return redirect('/dropdownlist');
+        return redirect('/dropdownlist1');
     }
 
   
