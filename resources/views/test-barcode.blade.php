@@ -1,3 +1,9 @@
+@extends('template')
+
+@section('title', 'Cetak Tabel TnJ 108')
+
+@section('container')
+
 <!doctype html>
 <html lang="en">
 
@@ -21,16 +27,13 @@
   <main class="wrapper" style="padding-top:2em">
 
     <section class="container" id="demo-content">
-      <h1 class="title">Scan 1D/2D Code from Video Camera</h1>
+      <h1 class="title">Scan Barcode TnJ 108</h1>
 
       <p>
         <a class="button-small button-outline" href="../../index.html">HOME 🏡</a>
       </p>
 
-      <p>This example shows how to scan any supported 1D/2D code with ZXing javascript library from the device video
-        camera. If more
-        than one video input devices are available (for example front and back camera) the example shows how to read
-        them and use a select to change the input device.</p>
+      <p></p>
 
       <div>
         <a class="button" id="startButton">Start</a>
@@ -56,8 +59,8 @@
 
     <footer class="footer">
       <section class="container">
-        <p>ZXing TypeScript Demo. Licensed under the <a target="_blank"
-            href="https://github.com/zxing-js/library#license" title="MIT">MIT</a>.</p>
+        <p><a target="_blank"
+            href="https://github.com/zxing-js/library#license" title="MIT"></a>.</p>
       </section>
     </footer>
 
@@ -116,6 +119,17 @@
     })
   </script>
 
+<script>
+  console.log('x : ')
+            const x = document.getElementsByClassName('post0');
+            for(let i=0;i<x.length;i++){
+                x[i].addEventListener('click',function(){
+                    x[i].submit();
+                });
+            }
+            swal("Welcome to Scan Barcode!", "You clicked the button!", "success");
+</script>
 </body>
 
 </html>
+@endsection

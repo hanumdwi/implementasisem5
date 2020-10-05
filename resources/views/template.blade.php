@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ asset('/asset/template/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/asset/template/assets/vendor/charts/c3charts/c3.css') }}">
     <link rel="stylesheet" href="{{ asset('/asset/template/assets/vendor/fonts/flag-icon-css/flag-icon.min.css') }}">
-    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+    <title>Concept</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">Implementasi DS</a>
+                <a class="navbar-brand" href="index.html">Hanum</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,7 +48,7 @@
                                         <div class="list-group">
                                             <a href="#" class="list-group-item list-group-item-action active">
                                                 <div class="notification-info">
-                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/assets/images/avatar-2.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/template/assets/images/avatar-2.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
                                                     <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
                                                         <div class="notification-date">2 min ago</div>
                                                     </div>
@@ -56,7 +56,7 @@
                                             </a>
                                             <a href="#" class="list-group-item list-group-item-action">
                                                 <div class="notification-info">
-                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/assets/images/avatar-3.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/template/assets/images/avatar-3.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
                                                     <div class="notification-list-user-block"><span class="notification-list-user-name">John Abraham </span>is now following you
                                                         <div class="notification-date">2 days ago</div>
                                                     </div>
@@ -64,7 +64,7 @@
                                             </a>
                                             <a href="#" class="list-group-item list-group-item-action">
                                                 <div class="notification-info">
-                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/assets/images/avatar-4.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/template/assets/images/avatar-4.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
                                                     <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
                                                         <div class="notification-date">2 min ago</div>
                                                     </div>
@@ -72,7 +72,7 @@
                                             </a>
                                             <a href="#" class="list-group-item list-group-item-action">
                                                 <div class="notification-info">
-                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/assets/images/avatar-5.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-img"><img src="{{ asset('/asset/template/assets/images/avatar-5.jpg') }}" alt="" class="user-avatar-md rounded-circle"></div>
                                                     <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
                                                         <div class="notification-date">2 min ago</div>
                                                     </div>
@@ -92,24 +92,24 @@
                                 <li class="connection-list">
                                     <div class="row">
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/assets/images/github.png') }}" alt="" > <span>Github</span></a>
+                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/template/assets/images/github.png') }}" alt="" > <span>Github</span></a>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/assets/images/dribbble.png') }}" alt="" > <span>Dribbble</span></a>
+                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/template/assets/images/dribbble.png') }}" alt="" > <span>Dribbble</span></a>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/assets/images/dropbox.png') }}" alt="" > <span>Dropbox</span></a>
+                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/template/assets/images/dropbox.png') }}" alt="" > <span>Dropbox</span></a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/assets/images/bitbucket.png') }}" alt=""> <span>Bitbucket</span></a>
+                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/template/assets/images/bitbucket.png') }}" alt=""> <span>Bitbucket</span></a>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/assets/images/mail_chimp.png') }}" alt="" ><span>Mail chimp</span></a>
+                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/template/assets/images/mail_chimp.png') }}" alt="" ><span>Mail chimp</span></a>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/assets/images/slack.png') }}" alt="" > <span>Slack</span></a>
+                                            <a href="#" class="connection-item"><img src="{{ asset('/asset/template/assets/images/slack.png') }}" alt="" > <span>Slack</span></a>
                                         </div>
                                     </div>
                                 </li>
@@ -119,7 +119,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown nav-user">
-                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset('/asset/assets/images/avatar-1.jpg') }}" alt="" class="user-avatar-md rounded-circle"></a>
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset('/asset/template/assets/images/avatar-1.jpg') }}" alt="" class="user-avatar-md rounded-circle"></a>
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info">
                                     <h5 class="mb-0 text-white nav-user-name">John Abraham </h5>
@@ -205,23 +205,28 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dropdownlist">Tambah Data Customer 1</a>
+                                            <a class="nav-link" href="dropdownlist"><i class ="fas fa-user-plus"></i>Tambah Customer 1</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dropdownlist1">Tambah Data Customer 2</a>
+                                            <a class="nav-link" href="dropdownlist1"><i class ="fas fa-user-plus"></i>Tambah Customer 2</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2"><i class="fas fa-address-card"></i>Cetak Tabel TnJ 108</a>
-                                <div id="submenu-2" class="collapse submenu" style="">
-                                <ul class="nav flex-column">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class=" fas fa-clipboard-list"></i>Cetak Tabel TnJ 108</a>
+                                <div id="submenu-3" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="barcode">Cetak Barcode</a>
+                                            <a class="nav-link" href="barcode"><i class ="fas fa-download"></i>Cetak Barcode</a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="test-barcode"><i class =" fas fa-camera"></i>Scan Barcode</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
                 </nav>
@@ -234,6 +239,11 @@
         <!-- wrapper  -->
         <!-- ============================================================== -->
         <div class="dashboard-wrapper">
+            
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         @yield('container')
             <!-- ============================================================== -->
             <!-- footer -->

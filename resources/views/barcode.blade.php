@@ -8,14 +8,14 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">Form Customers </h2>
+                            <h2 class="pageheader-title">Form Barang </h2>
                             <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Forms</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Form Customers</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Form Barang</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -59,4 +59,16 @@
         </div>
     </div>
 </div>
+
+<script>
+  console.log('x : ')
+            const x = document.getElementsByClassName('post0');
+            for(let i=0;i<x.length;i++){
+                x[i].addEventListener('click',function(){
+                    x[i].submit();
+                });
+            }
+            swal("Welcome to Print Barcode!", "You clicked the button!", "success");
+</script>
+
 @endsection
