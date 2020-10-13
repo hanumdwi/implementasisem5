@@ -97,7 +97,6 @@
                             </div>
                         </div>
                         
-                        
                                 
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                         Snapshoot
@@ -191,7 +190,7 @@
                         
                                     
                          
-<script>
+                            <script>
     // CAMERA SETTINGS.
     Webcam.set({
         width: 200,
@@ -292,7 +291,7 @@
                         console.log(data);
                         jQuery('select[name="kelurahan"]').empty();
                         jQuery.each(data, function(key,value){
-                           $('select[name="kelurahan"]').append('<option value="'+ key +'">'+ value.NAMA_KELURAHAN + ' - '+ value.KODEPOS+'</option>');
+                           $('select[name="kelurahan"]').append('<option value="'+ key +'">'+ value.NAMA_KELURAHAN + ' - '+ value.KODEPOS +'</option>');
                         });
                      }
                   });
@@ -304,7 +303,7 @@
             });
             
     });
-    </script>  
+    </script>
 
 <script>
   console.log('x : ')

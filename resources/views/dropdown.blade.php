@@ -96,7 +96,7 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                             </div>
                         </div>
-                        
+                       
                         
                                 
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -190,10 +190,8 @@
                     
                         
                                     
-                         
-<script>
-    // CAMERA SETTINGS.
-    Webcam.set({
+                            <script>
+                            Webcam.set({
         width: 200,
         height: 170,
         image_format: 'jpeg',
@@ -292,7 +290,7 @@
                         console.log(data);
                         jQuery('select[name="kelurahan"]').empty();
                         jQuery.each(data, function(key,value){
-                           $('select[name="kelurahan"]').append('<option value="'+ key +'">'+ value.NAMA_KELURAHAN + ' - '+ value.KODEPOS+'</option>');
+                           $('select[name="kelurahan"]').append('<option value="'+ key +'">'+ value.NAMA_KELURAHAN + ' - '+ value.KODEPOS +'</option>');
                         });
                      }
                   });
@@ -304,7 +302,7 @@
             });
             
     });
-    </script>  
+    </script>
 
 <script>
   console.log('x : ')

@@ -53,7 +53,7 @@ class DataController extends Controller
         
         // return view('dropdown', ['customer' =>$customer,'provinsi'=>$provinsi]);
         //dump($customer);
-        DB::table('customer')->insert(['ID_CUSTOMER'=>'19','NAMA' => $request->nama,
+        DB::table('customer')->insert(['NAMA' => $request->nama,
         'ALAMAT' => $request->alamat,
         'FOTO' => $request->foto,
         'ID_KELURAHAN'=> $request->kelurahan,
@@ -64,13 +64,24 @@ class DataController extends Controller
 
     public function customer_store2(Request $request)
     {
+        // $base64_str = substr($request->foto, strpos($request->foto, ",")+1);
+        // $foto = base64_decode($base64_str) ;
+        // $x = 1000;
+        // $path = '/public/file_foto/foto_customer'.$x.'.jpeg';
+        // Storage::put($path,$foto);
+
+        // DB::table('customer')->insert(['NAMA' => $request->nama,
+        // 'ALAMAT' => $request->alamat,
+        // 'FILE_PATH' => $path,
+        // 'ID_KELURAHAN'=> $request->kelurahan,
+        // ]);
         $base64_str = substr($request->foto, strpos($request->foto, ",")+1);
         $foto = base64_decode($base64_str) ;
-        $x = 1000;
-        $path = '/public/file_foto/foto_customer'.$x.'.png';
+        $nama_foto = 2;
+        $path = '/public/file_foto/Customer'.$nama_foto.'.jpeg';
         Storage::put($path,$foto);
 
-        DB::table('customer')->insert(['ID_CUSTOMER'=>'14','NAMA' => $request->nama,
+        DB::table('customer')->insert(['NAMA' => $request->nama,
         'ALAMAT' => $request->alamat,
         'FILE_PATH' => $path,
         'ID_KELURAHAN'=> $request->kelurahan,

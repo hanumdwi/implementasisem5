@@ -205,10 +205,10 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dropdownlist"><i class ="fas fa-user-plus"></i>Tambah Customer 1</a>
+                                            <a class="nav-link" href="{{url('dropdownlist')}}"><i class ="fas fa-user-plus"></i>Tambah Customer 1</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dropdownlist1"><i class ="fas fa-user-plus"></i>Tambah Customer 2</a>
+                                            <a class="nav-link" href="{{url('dropdownlist1')}}"><i class ="fas fa-user-plus"></i>Tambah Customer 2</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -218,10 +218,10 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="barcode"><i class ="fas fa-download"></i>Cetak Barcode</a>
+                                            <a class="nav-link" href="{{url('barcode')}}"><i class ="fas fa-download"></i>Cetak Barcode</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="test-barcode"><i class =" fas fa-camera"></i>Scan Barcode</a>
+                                            <a class="nav-link" href="{{url('test-barcode')}}"><i class =" fas fa-camera"></i>Scan Barcode</a>
                                         </li>
                                     </ul>
                                 </div>
